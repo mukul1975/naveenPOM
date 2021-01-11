@@ -16,5 +16,10 @@ public class HomePageTest extends BaseFile{
 	{
 		inicialBrowser();
 	}
+	
+	@Test
+	public void modifiedtest() {
+		System.out.println("modifiedtest");
+	}
 
 }

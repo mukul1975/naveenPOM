@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="21190" started-at="2020-11-03T16:10:18 EST" finished-at="2020-11-03T16:10:39 EST">
+  <suite started-at="2021-01-11T10:41:33 EST" name="Suite" finished-at="2021-01-11T10:41:45 EST" duration-ms="12453">
     <groups>
     </groups>
-    <test name="Test" duration-ms="21190" started-at="2020-11-03T16:10:18 EST" finished-at="2020-11-03T16:10:39 EST">
+    <test started-at="2021-01-11T10:41:33 EST" name="Test" finished-at="2021-01-11T10:41:45 EST" duration-ms="12453">
       <class name="com.amazon.homepageTest.HomePageTest">
-        <test-method status="PASS" signature="homePageTest()[pri:0, instance:com.amazon.homepageTest.HomePageTest@35fc6dc4]" name="homePageTest" duration-ms="19502" started-at="2020-11-03T16:10:18 EST" finished-at="2020-11-03T16:10:38 EST">
+        <test-method signature="homePageTest()[pri:0, instance:com.amazon.homepageTest.HomePageTest@1a5b6f42]" started-at="2021-01-11T10:41:33 EST" name="homePageTest" finished-at="2021-01-11T10:41:44 EST" duration-ms="11059" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageTest -->
+        <test-method signature="modifiedtest()[pri:0, instance:com.amazon.homepageTest.HomePageTest@1a5b6f42]" started-at="2021-01-11T10:41:45 EST" name="modifiedtest" finished-at="2021-01-11T10:41:45 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifiedtest -->
       </class> <!-- com.amazon.homepageTest.HomePageTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

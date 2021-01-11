@@ -21,7 +21,7 @@ public class BaseFile {
 	{
 		prob=new Properties();
 		try {
-			FileInputStream fis=new FileInputStream("C:\\Users\\Saiful\\eclipse-workspace\\NaveenPOM\\src\\main\\java\\com\\amazon\\config\\config.properties");
+			FileInputStream fis=new FileInputStream("C:\\Users\\saiful\\naveenPOM\\src\\main\\java\\com\\amazon\\config\\config.properties");
 			
 				prob.load(fis);
 			} catch (FileNotFoundException e) {
@@ -39,7 +39,7 @@ public class BaseFile {
 		String browserName=prob.getProperty("browser");
 		if(browserName.equals("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver","C:\\Users\\Saiful\\Desktop\\Selenium\\webdriver\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver","C:\\Users\\saiful\\Desktop\\chromedriver.exe");
 			driver=new ChromeDriver();
 		}
 		else if(browserName.equals("ie"))
